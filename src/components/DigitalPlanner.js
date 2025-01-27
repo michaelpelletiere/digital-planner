@@ -17,7 +17,7 @@ const DigitalPlanner = () => {
 
   return (
     <div className="flex flex-col items-center p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Digital Weekly Planner</h1>
+      <h1 className="text-2xl font-bold mb-4">Michael's Digital Weekly Planner</h1>
       <div className="grid grid-cols-7 gap-4">
         {daysOfWeek.map((day) => (
           <div
