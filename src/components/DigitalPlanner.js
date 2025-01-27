@@ -16,37 +16,37 @@ const DigitalPlanner = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Michael's Digital Weekly Planner</h1>
-      <div className="grid grid-cols-7 gap-4">
+    <div className="flex flex-col items-center p-6 bg-gradient-to-br from-purple-300 via-pink-300 to-yellow-200 min-h-screen">
+      <h1 className="text-4xl font-bold mb-6 text-purple-800 drop-shadow-lg">Digital Weekly Planner</h1>
+      <div className="grid grid-cols-7 gap-6">
         {daysOfWeek.map((day) => (
           <div
             key={day}
-            className="p-4 bg-white shadow rounded-xl border border-gray-200"
+            className="p-4 bg-white shadow-xl rounded-2xl border border-gray-200 hover:shadow-2xl transition-shadow duration-300"
           >
-            <h2 className="text-lg font-semibold mb-2">
+            <h2 className="text-lg font-semibold mb-3 text-purple-700">
               {format(day, "EEEE, MMM d")}
             </h2>
             <textarea
               value={tasks[format(day, "yyyy-MM-dd")] || ""}
               onChange={(e) => handleTaskChange(format(day, "yyyy-MM-dd"), e.target.value)}
               placeholder="Add tasks here..."
-              className="w-full p-2 border rounded-lg focus:outline-none focus:ring"
+              className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
               rows={5}
             />
           </div>
         ))}
       </div>
-      <div className="mt-6 flex gap-4">
+      <div className="mt-8 flex gap-6">
         <button
           onClick={() => setCurrentDate(addDays(currentDate, -7))}
-          className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+          className="px-6 py-3 bg-blue-500 text-white rounded-xl shadow-md hover:bg-blue-600 transition-transform transform hover:scale-105"
         >
           Previous Week
         </button>
         <button
           onClick={() => setCurrentDate(addDays(currentDate, 7))}
-          className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+          className="px-6 py-3 bg-blue-500 text-white rounded-xl shadow-md hover:bg-blue-600 transition-transform transform hover:scale-105"
         >
           Next Week
         </button>
