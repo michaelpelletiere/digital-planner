@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/digital-planner/static/css/main.cf890fdb.css",
-    "main.js": "/digital-planner/static/js/main.e0918181.js",
+    "main.css": "/digital-planner/static/css/main.b48dfebc.css",
+    "main.js": "/digital-planner/static/js/main.31c7e3f2.js",
     "index.html": "/digital-planner/index.html",
-    "main.cf890fdb.css.map": "/digital-planner/static/css/main.cf890fdb.css.map",
-    "main.e0918181.js.map": "/digital-planner/static/js/main.e0918181.js.map"
+    "main.b48dfebc.css.map": "/digital-planner/static/css/main.b48dfebc.css.map",
+    "main.31c7e3f2.js.map": "/digital-planner/static/js/main.31c7e3f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf890fdb.css",
-    "static/js/main.e0918181.js"
+    "static/css/main.b48dfebc.css",
+    "static/js/main.31c7e3f2.js"
   ]
 }
