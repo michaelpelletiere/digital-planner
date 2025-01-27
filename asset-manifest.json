@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digital-planner/static/css/main.cf890fdb.css",
+    "main.js": "/digital-planner/static/js/main.dc01c2c4.js",
+    "index.html": "/digital-planner/index.html",
+    "main.cf890fdb.css.map": "/digital-planner/static/css/main.cf890fdb.css.map",
+    "main.dc01c2c4.js.map": "/digital-planner/static/js/main.dc01c2c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf890fdb.css",
+    "static/js/main.dc01c2c4.js"
+  ]
+}
